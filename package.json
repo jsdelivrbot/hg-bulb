@@ -1,10 +1,10 @@
 {
   "name": "hg-bulb",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A base component library for mercuryjs",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/babel-node ./node_modules/.bin/tape ./lib/test.js",
+    "test": "./node_modules/.bin/babel-node ./node_modules/.bin/tape ./src/test.js",
     "compile": "./node_modules/.bin/babel --out-file ./lib/index.js ./src/index.js",
     "prepublish": "npm run compile"
   },

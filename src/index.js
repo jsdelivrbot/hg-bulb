@@ -1,6 +1,6 @@
 import hg from 'mercury'
 import cuid from 'cuid'
-import xtend from 'extend'
+import xtend from 'xtend'
 
 const h = hg.h
 
