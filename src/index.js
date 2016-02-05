@@ -56,7 +56,7 @@ Component.render = function (state, rndrFn) {
  */
 Component.containsEvent = function (cmpId, evt) {
   let elm = evt.target
-  while (elm !== undefined || elm.target.tagName.toLowerCase() !== 'body') {
+  while (elm && elm.tagName.toLowerCase() !== 'body') {
     if (elm.id === cmpId) {
       return true
     }
